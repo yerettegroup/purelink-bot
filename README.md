@@ -18,7 +18,7 @@ Purelink is a bot designed to detect, unwrap, and clean tracking links, extracti
 - **Dynamic Configuration**: Decoupled `data.json` for managing tracking rules.
 - **Security Hardened**: IP-level SSRF protection, strict TLS verification, and 5-link processing cap per message.
 - **Multi-Hop Chain Resolution**: Resolution logic for tracing deeply nested affiliate redirect chains.
-- **Known Unsupported Domains**: List of domains that block automated resolution: [unsupported.md](https://github.com/yerettexyz/purelink-bot/blob/main/unsupported.md)
+- **Known Unsupported Domains**: List of domains that block automated resolution: [unsupported.md](https://github.com/yerettegroup/purelink-bot/blob/main/unsupported.md)
 
 ---
 
@@ -31,7 +31,7 @@ Purelink is a bot designed to detect, unwrap, and clean tracking links, extracti
 ### 2. Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yerettexyz/purelink-bot.git
+   git clone https://github.com/yerettegroup/purelink-bot.git
    cd purelink
    ```
 2. Install dependencies:
@@ -75,7 +75,7 @@ python main.py
 ```
 
 ## 🤝 Contributing
-To report an uncleaned link: [Open a Domain Suggestion issue](https://github.com/yerettexyz/purelink-bot/issues/new?template=domain_request.md).
+To report an uncleaned link: [Open a Domain Suggestion issue](https://github.com/yerettegroup/purelink-bot/issues/new?template=domain_request.md).
 
 ---
 

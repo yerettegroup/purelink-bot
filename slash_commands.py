@@ -22,10 +22,10 @@ def register_commands(tree):
             description="Purelink is a high-performance URL sanitization bot that restores privacy by stripping affiliate tracking and redirect wrappers.",
             color=0x3498db # Simple Blue
         )
-        embed.add_field(name="Source Code", value="[GitHub Repository](https://github.com/yerettexyz/purelink-bot)", inline=False)
+        embed.add_field(name="Source Code", value="[GitHub Repository](https://github.com/yerettegroup/purelink-bot)", inline=False)
         embed.add_field(name="Purelink Stats", value="[Live Status Page](https://purelink-status.pages.dev)", inline=False)
         embed.add_field(name="Invite Bot", value="[Add Bot](https://yerette.xyz/purelink)", inline=False)
-        embed.add_field(name="Bugs, Issues, & Feedback", value="[GitHub Issues Page](https://github.com/yerettexyz/purelink-bot/issues)", inline=False)
+        embed.add_field(name="Bugs, Issues, & Feedback", value="[GitHub Issues Page](https://github.com/yerettegroup/purelink-bot/issues)", inline=False)
         embed.set_footer(text="Purelink v1.1.1")
         
         logo_path = "IMG_9915.webp"
