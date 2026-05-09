@@ -12,7 +12,7 @@ Purelink is a bot designed to detect, unwrap, and clean tracking links, extracti
 - **Dynamic Configuration**: Decoupled `data.json` for managing tracking rules.
 - **Security Hardened**: IP-level SSRF protection, strict TLS verification, and 5-link processing cap per message.
 - **Multi-Hop Chain Resolution**: Resolution logic for tracing deeply nested affiliate redirect chains.
-- **Known Unsupported Domains**: List of domains that block automated resolution: [unsupported.md](https://github.com/yerettegroup/purelink-bot/blob/main/unsupported.md)
+- **Known Unsupported Domains**: List of domains that block automated resolution: [unsupported.md](https://github.com/psalm2517/purelink-bot/blob/main/unsupported.md)
 
 ---
 
@@ -25,8 +25,8 @@ Purelink is a bot designed to detect, unwrap, and clean tracking links, extracti
 ### 2. Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yerettegroup/purelink-bot.git
-   cd purelink
+   git clone https://github.com/psalm2517/purelink-bot.git
+   cd purelink-bot
    ```
 2. Install dependencies:
    ```bash
@@ -48,12 +48,12 @@ Purelink is a bot designed to detect, unwrap, and clean tracking links, extracti
    ```bash
    sudo cp purelink.service /etc/systemd/system/
    sudo systemctl daemon-reload
-   sudo systemctl enable purelink
-   sudo systemctl start purelink
+   sudo systemctl enable purelink-bot
+   sudo systemctl start purelink-bot
    ```
 3. **Monitor Logs**:
    ```bash
-   sudo journalctl -u purelink -f
+   sudo journalctl -u purelink-bot -f
    ```
 
 ### 4. Permissions
@@ -69,7 +69,7 @@ python main.py
 ```
 
 ## 🤝 Contributing
-To report an uncleaned link: [Open a Domain Suggestion issue](https://github.com/yerettegroup/purelink-bot/issues/new?template=domain_request.md).
+To report an uncleaned link: [Open a Domain Suggestion issue](https://github.com/psalm2517/purelink-bot/issues/new?template=domain_request.md).
 
 ---
 
